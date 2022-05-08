@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #contenedor {
+        display: flex;
+        justify-content: center;
+      }
+
+      #imagen {
+        width: 50vw;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        border-color: orange;
+        border-style: double;
+        border-width: 25px 30px 10px 20px;
+        border-image: url("border-image.webp") 25 30 10 20 repeat;
+        background-image: url("imagen.jpeg");
+      }
+
+      div {
+        padding-left: 4%;
+        width: 90vw;
+        padding-right: 5px;
+      }
+      p {
+        text-align: center;
+        color: pink;
+        background-color: black;
+      }
+      p:active::first-letter {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      p:hover {
+        column-count: 3;
+      }
+
+      p:last-child {
+        background-color: bisque;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="imagen"></div>
+    </div>
+    <div id="texto">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, suscipit
+        recusandae! Exercitationem ratione magni deserunt molestiae labore?
+        Consectetur error commodi, repellendus at dolorum optio laboriosam non
+        eos repellat. Fugiat, enim! Lorem ipsum dolor sit amet, consectetur
+        adipisicing elit. Odit fugit illo, voluptatum voluptatem et aperiam
+        eligendi quisquam exercitationem inventore nisi consequatur delectus
+        corporis iusto temporibus velit quaerat voluptates quo sed! Lorem ipsum
+      </p>
+
+      <p>
+        Dolor sit amet consectetur adipisicing elit. Perspiciatis, laudantium
+        nulla quas excepturi consequuntur facilis libero voluptates maiores
+        facere delectus, itaque placeat pariatur laboriosam deserunt? Ipsum
+        necessitatibus eligendi expedita ipsam? Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Magni minus dolores inventore laborum
+        explicabo aliquid, deleniti maxime incidunt maiores eius neque nemo
+        modi, nostrum enim ut placeat dolor fugiat odit. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Illum corporis aperiam
+      </p>
+      <p>
+        Asperiores nisi laboriosam veritatis perferendis ex est, amet assumenda
+        laborum sequi, voluptates ut? Laboriosam fuga facilis nulla repellendus
+        distinctio? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Eligendi, aliquid omnis itaque enim adipisci inventore unde porro,
+        doloremque dolorem magni laudantium ipsam nostrum cupiditate eos at
+        maiores, animi quam numquam? Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Voluptates consectetur accusamus consequatur ad modi
+        corrupti rerum laborum culpa enim? Rerum cumque consequuntur eos
+        suscipit voluptate necessitatibus aperiam facilis provident nisi.
+      </p>
+    </div>
+  </body>
+</html>
